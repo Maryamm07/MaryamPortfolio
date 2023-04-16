@@ -1,0 +1,327 @@
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav li {
+    list-style: none;
+    /* float:left; */
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.logo {
+    font-family: Cursive;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: darkblue;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(83, 81, 81);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+    color: darkblue;
+    transition: .4s;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: transform .4s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+h1{
+    color: darkblue;
+    margin: 20px 0px;
+    font-size: 75px;
+}
+h3{
+    color: darkblue;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: darkslategray;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.Email{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.Email form input:first-child{
+    display: inline-block;
+    width: 280px; 
+    padding: 14px 130px 14px 15px;
+    border: 2px solid darkblue;
+    border-radius: 30px;
+    outline: none;
+}
+.Email form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: -40px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+.Email form input:last-child:hover{
+    transform: scale(1.2);
+}
+/* .about img{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+} */
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.aboutText{
+    /* text-align: center; */
+    width: 550px;
+    /* margin: 0px auto; */
+    padding-top: 75px;
+    padding-left: 100px;
+}
+.aboutText h2{
+    color: darkblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.aboutText h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.aboutText p{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-family: Snell Roundhand, cursive;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 13px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2.5px solid blue;
+}
+.service{
+    background-image: url(../Img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 80px 0px;
+}
+.title h2{
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: darkblue;
+}
+h5{
+    color: black;
+    font-size: 23px;
+    margin: 15px;
+}
+.pra p{
+    color: rgb(49, 47, 47);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: 550;
+    font-family: cursive;
+}
+.card .Button{
+    text-decoration: none;
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    padding: 9px 22px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+.card .Button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+}
+.contact-me{
+    background-image: url(../Img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 290px;
+    padding-top: 5px;
+    text-align: center;
+}
+.contact-me p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+} 
+.contact-me .button2{
+    text-decoration: none;
+    background-color: blue;
+    color: black;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 9px 22px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+.contact-me .button2:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(../Img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    letter-spacing: 2px;
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkblue;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: white;
+    bottom: 35px;
+    font-size: 14px;
+}
