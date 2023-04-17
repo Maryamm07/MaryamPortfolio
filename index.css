@@ -1,7 +1,7 @@
 .navbar {
     height: 100vh;
     width: 100%;
-    background-image: url(../Portfolio/Img4.jpg);
+    background-image: url(Portfolio/Img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,7 +124,7 @@ h4{
 .main{
     height: 100vh;
     width: 100%;
-    background-image: url(../Portfolio/Img1.png);
+    background-image: url(Portfolio/Img1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,7 +172,7 @@ button:hover{
     border: 2.5px solid blue;
 }
 .service{
-    background-image: url(../Portfolio/Img2.jpg);
+    background-image: url(Portfolio/Img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -238,7 +238,7 @@ h5{
     border: 2px solid blue;
 }
 .contact-me{
-    background-image: url(../Portfolio/Img3.jpg);
+    background-image: url(Portfolio/Img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -275,7 +275,7 @@ footer{
     width: 100%;
     height: 400px;
     position: relative;
-    background-image: url(../Portfolio/Img6.jpg);
+    background-image: url(Portfolio/Img6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
